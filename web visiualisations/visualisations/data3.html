@@ -1,0 +1,1358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <link rel="stylesheet" href="../assets/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>Dataset</title>
+  </head>
+
+  <body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a href="../../index.html" class="navbar-brand ml-3" id="logo_letters"><img src="../Resources/images/logo.png" alt="" class="logo"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar_menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>   
+      </div>
+    </nav>
+
+    <!-- First Item of content-->
+    <div class="container-fluid">
+      <div class="row welcome text-left">
+        <div class="col-12">
+          <h1 class="display-4">Data</h1>
+          <p>This is the complete set of data used in this project</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 ">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+              <li class="page-item"><a class="page-link" href="data.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="data2.html">2</a></li>
+              <li class="page-item disabled"><a class="page-link" href="data3.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="data4.html">4</a></li>
+              <li class="page-item"><a class="page-link" href="data5.html">5</a></li>
+              <li class="page-item"><a class="page-link" href="data6.html">6</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th class="index_col"></th>
+                <th scope="col">City</th>
+                <th scope="col">Country</th>
+                <th scope="col">Date</th>
+                <th scope="col">Cloudiness</th>
+                <th scope="col">Humidity</th>
+                <th scope="col">Lat</th>
+                <th scope="col">Lon</th>
+                <th scope="col">Max Temp (°F)</th>
+                <th scope="col">Wind Speed (mph)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>200</th>
+                <td>Presidencia roque saenz pena</td>
+                <td>AR</td>
+                <td>2020-05-10 03:14:50</td>
+                <td>0</td>
+                <td>53</td>
+                <td>-26.79</td>
+                <td>-60.44</td>
+                <td>59.792</td>
+                <td>7.35973</td>
+              </tr>
+              <tr>
+                <th>201</th>
+                <td>Honiara</td>
+                <td>SB</td>
+                <td>2020-05-10 03:14:51</td>
+                <td>20</td>
+                <td>66</td>
+                <td>-9.43</td>
+                <td>159.95</td>
+                <td>91.400</td>
+                <td>9.17170</td>
+              </tr>
+              <tr>
+                <th>202</th>
+                <td>Pentecoste</td>
+                <td>BR</td>
+                <td>2020-05-10 03:14:52</td>
+                <td>19</td>
+                <td>86</td>
+                <td>-3.79</td>
+                <td>-39.27</td>
+                <td>71.996</td>
+                <td>2.39359</td>
+              </tr>
+              <tr>
+                <th>203</th>
+                <td>Praia da vitoria</td>
+                <td>PT</td>
+                <td>2020-05-10 03:14:52</td>
+                <td>75</td>
+                <td>88</td>
+                <td>38.73</td>
+                <td>-27.07</td>
+                <td>64.400</td>
+                <td>25.77024</td>
+              </tr>
+              <tr>
+                <th>204</th>
+                <td>Qasigiannguit</td>
+                <td>GL</td>
+                <td>2020-05-10 03:14:53</td>
+                <td>100</td>
+                <td>86</td>
+                <td>68.82</td>
+                <td>-51.19</td>
+                <td>30.200</td>
+                <td>4.69770</td>
+              </tr>
+              <tr>
+                <th>205</th>
+                <td>Los algarrobos</td>
+                <td>PA</td>
+                <td>2020-05-10 03:14:54</td>
+                <td>100</td>
+                <td>85</td>
+                <td>8.50</td>
+                <td>-82.43</td>
+                <td>69.998</td>
+                <td>4.00423</td>
+              </tr>
+              <tr>
+                <th>206</th>
+                <td>La roche-sur-yon</td>
+                <td>FR</td>
+                <td>2020-05-10 03:14:54</td>
+                <td>100</td>
+                <td>93</td>
+                <td>46.67</td>
+                <td>-1.43</td>
+                <td>59.000</td>
+                <td>3.35550</td>
+              </tr>
+              <tr>
+                <th>207</th>
+                <td>Carnarvon</td>
+                <td>AU</td>
+                <td>2020-05-10 03:14:55</td>
+                <td>100</td>
+                <td>41</td>
+                <td>-24.87</td>
+                <td>113.63</td>
+                <td>77.324</td>
+                <td>10.62575</td>
+              </tr>
+              <tr>
+                <th>208</th>
+                <td>Beloha</td>
+                <td>MG</td>
+                <td>2020-05-10 03:14:56</td>
+                <td>14</td>
+                <td>88</td>
+                <td>-25.17</td>
+                <td>45.05</td>
+                <td>64.814</td>
+                <td>12.21402</td>
+              </tr>
+              <tr>
+                <th>209</th>
+                <td>Liyang</td>
+                <td>CN</td>
+                <td>2020-05-10 03:14:56</td>
+                <td>68</td>
+                <td>86</td>
+                <td>29.71</td>
+                <td>118.29</td>
+                <td>75.002</td>
+                <td>1.92382</td>
+              </tr>
+              <tr>
+                <th>210</th>
+                <td>Vrangel</td>
+                <td>RU</td>
+                <td>2020-05-10 03:14:57</td>
+                <td>100</td>
+                <td>97</td>
+                <td>42.73</td>
+                <td>133.08</td>
+                <td>47.930</td>
+                <td>1.74486</td>
+              </tr>
+              <tr>
+                <th>211</th>
+                <td>Tondano</td>
+                <td>ID</td>
+                <td>2020-05-10 03:14:57</td>
+                <td>20</td>
+                <td>55</td>
+                <td>1.30</td>
+                <td>124.91</td>
+                <td>91.400</td>
+                <td>3.35550</td>
+              </tr>
+              <tr>
+                <th>212</th>
+                <td>Canton</td>
+                <td>CN</td>
+                <td>2020-05-10 03:14:17</td>
+                <td>30</td>
+                <td>99</td>
+                <td>23.12</td>
+                <td>113.25</td>
+                <td>93.002</td>
+                <td>6.28597</td>
+              </tr>
+              <tr>
+                <th>213</th>
+                <td>Oussouye</td>
+                <td>SN</td>
+                <td>2020-05-10 03:14:58</td>
+                <td>75</td>
+                <td>94</td>
+                <td>12.48</td>
+                <td>-16.55</td>
+                <td>73.400</td>
+                <td>4.69770</td>
+              </tr>
+              <tr>
+                <th>214</th>
+                <td>Baykit</td>
+                <td>RU</td>
+                <td>2020-05-10 03:14:59</td>
+                <td>15</td>
+                <td>43</td>
+                <td>61.67</td>
+                <td>96.37</td>
+                <td>51.188</td>
+                <td>12.10217</td>
+              </tr>
+              <tr>
+                <th>215</th>
+                <td>Nabire</td>
+                <td>ID</td>
+                <td>2020-05-10 03:15:00</td>
+                <td>62</td>
+                <td>75</td>
+                <td>-3.37</td>
+                <td>135.48</td>
+                <td>86.054</td>
+                <td>3.42261</td>
+              </tr>
+              <tr>
+                <th>216</th>
+                <td>Akyab</td>
+                <td>MM</td>
+                <td>2020-05-10 03:15:00</td>
+                <td>0</td>
+                <td>48</td>
+                <td>20.15</td>
+                <td>92.90</td>
+                <td>88.214</td>
+                <td>0.08948</td>
+              </tr>
+              <tr>
+                <th>217</th>
+                <td>Altamirano</td>
+                <td>MX</td>
+                <td>2020-05-10 03:15:01</td>
+                <td>65</td>
+                <td>100</td>
+                <td>16.88</td>
+                <td>-92.15</td>
+                <td>60.044</td>
+                <td>2.39359</td>
+              </tr>
+              <tr>
+                <th>218</th>
+                <td>Ixtapa</td>
+                <td>MX</td>
+                <td>2020-05-10 03:15:02</td>
+                <td>40</td>
+                <td>74</td>
+                <td>20.70</td>
+                <td>-105.20</td>
+                <td>78.800</td>
+                <td>4.69770</td>
+              </tr>
+              <tr>
+                <th>219</th>
+                <td>Namibe</td>
+                <td>AO</td>
+                <td>2020-05-10 03:15:02</td>
+                <td>81</td>
+                <td>48</td>
+                <td>-15.20</td>
+                <td>12.15</td>
+                <td>79.376</td>
+                <td>2.14752</td>
+              </tr>
+              <tr>
+                <th>220</th>
+                <td>Newton</td>
+                <td>US</td>
+                <td>2020-05-10 03:15:03</td>
+                <td>1</td>
+                <td>59</td>
+                <td>42.34</td>
+                <td>-71.21</td>
+                <td>37.400</td>
+                <td>11.40870</td>
+              </tr>
+              <tr>
+                <th>221</th>
+                <td>Sept-iles</td>
+                <td>CA</td>
+                <td>2020-05-10 03:15:03</td>
+                <td>75</td>
+                <td>45</td>
+                <td>50.20</td>
+                <td>-66.38</td>
+                <td>42.998</td>
+                <td>13.86940</td>
+              </tr>
+              <tr>
+                <th>222</th>
+                <td>Hasaki</td>
+                <td>JP</td>
+                <td>2020-05-10 03:15:04</td>
+                <td>75</td>
+                <td>94</td>
+                <td>35.73</td>
+                <td>140.83</td>
+                <td>71.996</td>
+                <td>11.40870</td>
+              </tr>
+              <tr>
+                <th>223</th>
+                <td>Angoche</td>
+                <td>MZ</td>
+                <td>2020-05-10 03:15:04</td>
+                <td>58</td>
+                <td>84</td>
+                <td>-16.23</td>
+                <td>39.91</td>
+                <td>72.932</td>
+                <td>10.13361</td>
+              </tr>
+              <tr>
+                <th>224</th>
+                <td>Tual</td>
+                <td>ID</td>
+                <td>2020-05-10 03:15:05</td>
+                <td>87</td>
+                <td>76</td>
+                <td>-5.67</td>
+                <td>132.75</td>
+                <td>83.660</td>
+                <td>18.38814</td>
+              </tr>
+              <tr>
+                <th>225</th>
+                <td>Mahajanga</td>
+                <td>MG</td>
+                <td>2020-05-10 03:15:06</td>
+                <td>20</td>
+                <td>88</td>
+                <td>-15.72</td>
+                <td>46.32</td>
+                <td>69.800</td>
+                <td>5.81620</td>
+              </tr>
+              <tr>
+                <th>226</th>
+                <td>Clyde river</td>
+                <td>CA</td>
+                <td>2020-05-10 03:15:07</td>
+                <td>1</td>
+                <td>84</td>
+                <td>70.47</td>
+                <td>-68.59</td>
+                <td>1.400</td>
+                <td>14.98790</td>
+              </tr>
+              <tr>
+                <th>227</th>
+                <td>Kapuskasing</td>
+                <td>CA</td>
+                <td>2020-05-10 03:15:07</td>
+                <td>90</td>
+                <td>86</td>
+                <td>49.42</td>
+                <td>-82.43</td>
+                <td>30.200</td>
+                <td>8.05320</td>
+              </tr>
+              <tr>
+                <th>228</th>
+                <td>Puerto ayora</td>
+                <td>EC</td>
+                <td>2020-05-10 03:15:08</td>
+                <td>7</td>
+                <td>92</td>
+                <td>-0.74</td>
+                <td>-90.35</td>
+                <td>77.000</td>
+                <td>5.27932</td>
+              </tr>
+              <tr>
+                <th>229</th>
+                <td>Mabini</td>
+                <td>PH</td>
+                <td>2020-05-10 03:15:08</td>
+                <td>40</td>
+                <td>66</td>
+                <td>15.60</td>
+                <td>120.98</td>
+                <td>89.600</td>
+                <td>2.23700</td>
+              </tr>
+              <tr>
+                <th>230</th>
+                <td>Santiago del estero</td>
+                <td>AR</td>
+                <td>2020-05-10 03:15:09</td>
+                <td>13</td>
+                <td>57</td>
+                <td>-27.80</td>
+                <td>-64.26</td>
+                <td>61.160</td>
+                <td>7.04655</td>
+              </tr>
+              <tr>
+                <th>231</th>
+                <td>Flinders</td>
+                <td>AU</td>
+                <td>2020-05-10 03:12:00</td>
+                <td>0</td>
+                <td>37</td>
+                <td>-34.58</td>
+                <td>150.86</td>
+                <td>62.996</td>
+                <td>7.00181</td>
+              </tr>
+              <tr>
+                <th>232</th>
+                <td>Mexico</td>
+                <td>PH</td>
+                <td>2020-05-10 03:13:35</td>
+                <td>40</td>
+                <td>66</td>
+                <td>15.06</td>
+                <td>120.72</td>
+                <td>89.600</td>
+                <td>2.23700</td>
+              </tr>
+              <tr>
+                <th>233</th>
+                <td>Moyale</td>
+                <td>KE</td>
+                <td>2020-05-10 03:15:10</td>
+                <td>61</td>
+                <td>99</td>
+                <td>3.52</td>
+                <td>39.06</td>
+                <td>65.696</td>
+                <td>5.10036</td>
+              </tr>
+              <tr>
+                <th>234</th>
+                <td>Pastavy</td>
+                <td>BY</td>
+                <td>2020-05-10 03:15:13</td>
+                <td>78</td>
+                <td>91</td>
+                <td>55.12</td>
+                <td>26.83</td>
+                <td>43.016</td>
+                <td>4.13845</td>
+              </tr>
+              <tr>
+                <th>235</th>
+                <td>Lashio</td>
+                <td>MM</td>
+                <td>2020-05-10 03:15:13</td>
+                <td>0</td>
+                <td>26</td>
+                <td>22.93</td>
+                <td>97.75</td>
+                <td>92.930</td>
+                <td>1.34220</td>
+              </tr>
+              <tr>
+                <th>236</th>
+                <td>Quatre cocos</td>
+                <td>MU</td>
+                <td>2020-05-10 03:15:14</td>
+                <td>40</td>
+                <td>73</td>
+                <td>-20.21</td>
+                <td>57.76</td>
+                <td>73.400</td>
+                <td>8.05320</td>
+              </tr>
+              <tr>
+                <th>237</th>
+                <td>Buala</td>
+                <td>SB</td>
+                <td>2020-05-10 03:15:14</td>
+                <td>45</td>
+                <td>71</td>
+                <td>-8.14</td>
+                <td>159.59</td>
+                <td>86.216</td>
+                <td>5.50302</td>
+              </tr>
+              <tr>
+                <th>238</th>
+                <td>Colesberg</td>
+                <td>ZA</td>
+                <td>2020-05-10 03:15:15</td>
+                <td>0</td>
+                <td>45</td>
+                <td>-30.72</td>
+                <td>25.10</td>
+                <td>50.720</td>
+                <td>2.90810</td>
+              </tr>
+              <tr>
+                <th>239</th>
+                <td>Howard springs</td>
+                <td>AU</td>
+                <td>2020-05-10 03:15:15</td>
+                <td>0</td>
+                <td>40</td>
+                <td>-12.50</td>
+                <td>131.05</td>
+                <td>91.004</td>
+                <td>11.40870</td>
+              </tr>
+              <tr>
+                <th>240</th>
+                <td>Liverpool</td>
+                <td>GB</td>
+                <td>2020-05-10 03:01:50</td>
+                <td>46</td>
+                <td>81</td>
+                <td>53.41</td>
+                <td>-2.98</td>
+                <td>53.996</td>
+                <td>11.40870</td>
+              </tr>
+              <tr>
+                <th>241</th>
+                <td>Sitka</td>
+                <td>US</td>
+                <td>2020-05-10 03:15:17</td>
+                <td>75</td>
+                <td>32</td>
+                <td>57.05</td>
+                <td>-135.33</td>
+                <td>68.000</td>
+                <td>6.93470</td>
+              </tr>
+              <tr>
+                <th>242</th>
+                <td>Egvekinot</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:18</td>
+                <td>100</td>
+                <td>100</td>
+                <td>66.32</td>
+                <td>-179.17</td>
+                <td>33.008</td>
+                <td>24.83070</td>
+              </tr>
+              <tr>
+                <th>243</th>
+                <td>Vostok</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:18</td>
+                <td>100</td>
+                <td>92</td>
+                <td>46.49</td>
+                <td>135.88</td>
+                <td>46.076</td>
+                <td>3.87001</td>
+              </tr>
+              <tr>
+                <th>244</th>
+                <td>Constitucion</td>
+                <td>CL</td>
+                <td>2020-05-10 03:15:19</td>
+                <td>33</td>
+                <td>86</td>
+                <td>-35.33</td>
+                <td>-72.42</td>
+                <td>55.706</td>
+                <td>2.84099</td>
+              </tr>
+              <tr>
+                <th>245</th>
+                <td>Sur</td>
+                <td>OM</td>
+                <td>2020-05-10 03:15:20</td>
+                <td>0</td>
+                <td>52</td>
+                <td>22.57</td>
+                <td>59.53</td>
+                <td>85.424</td>
+                <td>1.87908</td>
+              </tr>
+              <tr>
+                <th>246</th>
+                <td>Quelimane</td>
+                <td>MZ</td>
+                <td>2020-05-10 03:15:20</td>
+                <td>36</td>
+                <td>93</td>
+                <td>-17.88</td>
+                <td>36.89</td>
+                <td>67.676</td>
+                <td>4.42926</td>
+              </tr>
+              <tr>
+                <th>247</th>
+                <td>Marienburg</td>
+                <td>PL</td>
+                <td>2020-05-10 03:15:21</td>
+                <td>0</td>
+                <td>86</td>
+                <td>54.04</td>
+                <td>19.03</td>
+                <td>44.996</td>
+                <td>1.11850</td>
+              </tr>
+              <tr>
+                <th>248</th>
+                <td>Skelleftea</td>
+                <td>SE</td>
+                <td>2020-05-10 03:15:22</td>
+                <td>100</td>
+                <td>93</td>
+                <td>64.75</td>
+                <td>20.95</td>
+                <td>35.600</td>
+                <td>2.23700</td>
+              </tr>
+              <tr>
+                <th>249</th>
+                <td>Bjornevatn</td>
+                <td>NO</td>
+                <td>2020-05-10 03:15:22</td>
+                <td>70</td>
+                <td>100</td>
+                <td>69.67</td>
+                <td>29.98</td>
+                <td>26.600</td>
+                <td>5.81620</td>
+              </tr>
+              <tr>
+                <th>250</th>
+                <td>Mount gambier</td>
+                <td>AU</td>
+                <td>2020-05-10 03:15:23</td>
+                <td>40</td>
+                <td>76</td>
+                <td>-37.83</td>
+                <td>140.77</td>
+                <td>57.200</td>
+                <td>13.86940</td>
+              </tr>
+              <tr>
+                <th>251</th>
+                <td>Dudinka</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:23</td>
+                <td>40</td>
+                <td>98</td>
+                <td>69.41</td>
+                <td>86.18</td>
+                <td>32.000</td>
+                <td>17.89600</td>
+              </tr>
+              <tr>
+                <th>252</th>
+                <td>Olafsvik</td>
+                <td>IS</td>
+                <td>2020-05-10 03:15:24</td>
+                <td>0</td>
+                <td>73</td>
+                <td>64.89</td>
+                <td>-23.71</td>
+                <td>37.886</td>
+                <td>10.58101</td>
+              </tr>
+              <tr>
+                <th>253</th>
+                <td>Tigil</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:25</td>
+                <td>100</td>
+                <td>94</td>
+                <td>57.80</td>
+                <td>158.67</td>
+                <td>34.538</td>
+                <td>15.39056</td>
+              </tr>
+              <tr>
+                <th>254</th>
+                <td>Tongliao</td>
+                <td>CN</td>
+                <td>2020-05-10 03:15:26</td>
+                <td>22</td>
+                <td>21</td>
+                <td>43.61</td>
+                <td>122.27</td>
+                <td>69.746</td>
+                <td>21.76601</td>
+              </tr>
+              <tr>
+                <th>255</th>
+                <td>Evensk</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:27</td>
+                <td>100</td>
+                <td>94</td>
+                <td>61.95</td>
+                <td>159.23</td>
+                <td>36.194</td>
+                <td>16.12877</td>
+              </tr>
+              <tr>
+                <th>256</th>
+                <td>Yumen</td>
+                <td>CN</td>
+                <td>2020-05-10 03:15:27</td>
+                <td>26</td>
+                <td>39</td>
+                <td>40.28</td>
+                <td>97.20</td>
+                <td>51.728</td>
+                <td>20.51329</td>
+              </tr>
+              <tr>
+                <th>257</th>
+                <td>Wanaka</td>
+                <td>NZ</td>
+                <td>2020-05-10 03:14:37</td>
+                <td>100</td>
+                <td>68</td>
+                <td>-44.70</td>
+                <td>169.15</td>
+                <td>56.984</td>
+                <td>7.00181</td>
+              </tr>
+              <tr>
+                <th>258</th>
+                <td>Saquena</td>
+                <td>PE</td>
+                <td>2020-05-10 03:15:29</td>
+                <td>95</td>
+                <td>85</td>
+                <td>-4.67</td>
+                <td>-73.52</td>
+                <td>71.762</td>
+                <td>1.78960</td>
+              </tr>
+              <tr>
+                <th>259</th>
+                <td>Brae</td>
+                <td>GB</td>
+                <td>2020-05-10 03:15:29</td>
+                <td>28</td>
+                <td>69</td>
+                <td>60.40</td>
+                <td>-1.35</td>
+                <td>33.800</td>
+                <td>14.98790</td>
+              </tr>
+              <tr>
+                <th>260</th>
+                <td>Lishui</td>
+                <td>CN</td>
+                <td>2020-05-10 03:15:30</td>
+                <td>97</td>
+                <td>84</td>
+                <td>28.46</td>
+                <td>119.91</td>
+                <td>73.670</td>
+                <td>4.54111</td>
+              </tr>
+              <tr>
+                <th>261</th>
+                <td>Praia</td>
+                <td>CV</td>
+                <td>2020-05-10 03:15:31</td>
+                <td>40</td>
+                <td>73</td>
+                <td>14.92</td>
+                <td>-23.51</td>
+                <td>71.600</td>
+                <td>14.98790</td>
+              </tr>
+              <tr>
+                <th>262</th>
+                <td>Saldanha</td>
+                <td>ZA</td>
+                <td>2020-05-10 03:15:32</td>
+                <td>0</td>
+                <td>81</td>
+                <td>-33.01</td>
+                <td>17.94</td>
+                <td>53.600</td>
+                <td>2.23700</td>
+              </tr>
+              <tr>
+                <th>263</th>
+                <td>Huambo</td>
+                <td>AO</td>
+                <td>2020-05-10 03:15:32</td>
+                <td>58</td>
+                <td>78</td>
+                <td>-12.78</td>
+                <td>15.74</td>
+                <td>54.590</td>
+                <td>2.90810</td>
+              </tr>
+              <tr>
+                <th>264</th>
+                <td>Kanashevo</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:33</td>
+                <td>40</td>
+                <td>54</td>
+                <td>55.22</td>
+                <td>62.06</td>
+                <td>60.008</td>
+                <td>4.47400</td>
+              </tr>
+              <tr>
+                <th>265</th>
+                <td>Itarema</td>
+                <td>BR</td>
+                <td>2020-05-10 03:15:34</td>
+                <td>19</td>
+                <td>86</td>
+                <td>-2.92</td>
+                <td>-39.92</td>
+                <td>75.902</td>
+                <td>5.32406</td>
+              </tr>
+              <tr>
+                <th>266</th>
+                <td>Northam</td>
+                <td>GB</td>
+                <td>2020-05-10 03:15:35</td>
+                <td>99</td>
+                <td>95</td>
+                <td>51.03</td>
+                <td>-4.22</td>
+                <td>51.998</td>
+                <td>1.99093</td>
+              </tr>
+              <tr>
+                <th>267</th>
+                <td>Kapit</td>
+                <td>MY</td>
+                <td>2020-05-10 03:15:35</td>
+                <td>100</td>
+                <td>55</td>
+                <td>2.02</td>
+                <td>112.93</td>
+                <td>92.426</td>
+                <td>1.90145</td>
+              </tr>
+              <tr>
+                <th>268</th>
+                <td>Iberia</td>
+                <td>US</td>
+                <td>2020-05-10 03:15:36</td>
+                <td>1</td>
+                <td>77</td>
+                <td>29.95</td>
+                <td>-91.75</td>
+                <td>66.002</td>
+                <td>6.93470</td>
+              </tr>
+              <tr>
+                <th>269</th>
+                <td>Cozumel</td>
+                <td>MX</td>
+                <td>2020-05-10 03:15:36</td>
+                <td>90</td>
+                <td>83</td>
+                <td>20.51</td>
+                <td>-86.95</td>
+                <td>82.994</td>
+                <td>5.81620</td>
+              </tr>
+              <tr>
+                <th>270</th>
+                <td>Nouadhibou</td>
+                <td>MR</td>
+                <td>2020-05-10 03:15:37</td>
+                <td>100</td>
+                <td>80</td>
+                <td>20.93</td>
+                <td>-17.03</td>
+                <td>66.668</td>
+                <td>22.77266</td>
+              </tr>
+              <tr>
+                <th>271</th>
+                <td>Cherskiy</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:37</td>
+                <td>100</td>
+                <td>60</td>
+                <td>68.75</td>
+                <td>161.30</td>
+                <td>44.222</td>
+                <td>13.46674</td>
+              </tr>
+              <tr>
+                <th>272</th>
+                <td>Zabid</td>
+                <td>YE</td>
+                <td>2020-05-10 03:15:38</td>
+                <td>83</td>
+                <td>52</td>
+                <td>14.20</td>
+                <td>43.32</td>
+                <td>87.350</td>
+                <td>6.82285</td>
+              </tr>
+              <tr>
+                <th>273</th>
+                <td>Poum</td>
+                <td>NC</td>
+                <td>2020-05-10 03:15:38</td>
+                <td>0</td>
+                <td>67</td>
+                <td>-20.23</td>
+                <td>164.02</td>
+                <td>76.460</td>
+                <td>5.77146</td>
+              </tr>
+              <tr>
+                <th>274</th>
+                <td>Meiganga</td>
+                <td>CM</td>
+                <td>2020-05-10 03:15:39</td>
+                <td>17</td>
+                <td>96</td>
+                <td>6.52</td>
+                <td>14.30</td>
+                <td>64.886</td>
+                <td>1.83434</td>
+              </tr>
+              <tr>
+                <th>275</th>
+                <td>Comodoro rivadavia</td>
+                <td>AR</td>
+                <td>2020-05-10 03:12:08</td>
+                <td>90</td>
+                <td>66</td>
+                <td>-45.87</td>
+                <td>-67.50</td>
+                <td>55.400</td>
+                <td>3.35550</td>
+              </tr>
+              <tr>
+                <th>276</th>
+                <td>Mangla</td>
+                <td>PK</td>
+                <td>2020-05-10 03:15:41</td>
+                <td>0</td>
+                <td>26</td>
+                <td>31.89</td>
+                <td>72.38</td>
+                <td>91.418</td>
+                <td>16.79987</td>
+              </tr>
+              <tr>
+                <th>277</th>
+                <td>Saint-pierre</td>
+                <td>RE</td>
+                <td>2020-05-10 03:15:41</td>
+                <td>75</td>
+                <td>82</td>
+                <td>-21.34</td>
+                <td>55.48</td>
+                <td>68.000</td>
+                <td>9.17170</td>
+              </tr>
+              <tr>
+                <th>278</th>
+                <td>Ferme-neuve</td>
+                <td>CA</td>
+                <td>2020-05-10 03:15:42</td>
+                <td>74</td>
+                <td>87</td>
+                <td>46.70</td>
+                <td>-75.45</td>
+                <td>28.850</td>
+                <td>6.53204</td>
+              </tr>
+              <tr>
+                <th>279</th>
+                <td>Moura</td>
+                <td>PT</td>
+                <td>2020-05-10 03:15:42</td>
+                <td>20</td>
+                <td>100</td>
+                <td>38.14</td>
+                <td>-7.45</td>
+                <td>53.600</td>
+                <td>8.05320</td>
+              </tr>
+              <tr>
+                <th>280</th>
+                <td>Kamenka</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:43</td>
+                <td>0</td>
+                <td>94</td>
+                <td>51.32</td>
+                <td>42.77</td>
+                <td>46.004</td>
+                <td>5.99516</td>
+              </tr>
+              <tr>
+                <th>281</th>
+                <td>Zhangjiakou</td>
+                <td>CN</td>
+                <td>2020-05-10 03:15:44</td>
+                <td>3</td>
+                <td>28</td>
+                <td>40.81</td>
+                <td>114.88</td>
+                <td>60.476</td>
+                <td>22.45948</td>
+              </tr>
+              <tr>
+                <th>282</th>
+                <td>Gorontalo</td>
+                <td>ID</td>
+                <td>2020-05-10 03:15:30</td>
+                <td>58</td>
+                <td>59</td>
+                <td>0.54</td>
+                <td>123.06</td>
+                <td>89.474</td>
+                <td>6.03990</td>
+              </tr>
+              <tr>
+                <th>283</th>
+                <td>Caravelas</td>
+                <td>BR</td>
+                <td>2020-05-10 03:15:45</td>
+                <td>42</td>
+                <td>76</td>
+                <td>-17.71</td>
+                <td>-39.25</td>
+                <td>71.330</td>
+                <td>9.90991</td>
+              </tr>
+              <tr>
+                <th>284</th>
+                <td>Kaitangata</td>
+                <td>NZ</td>
+                <td>2020-05-10 03:15:46</td>
+                <td>100</td>
+                <td>70</td>
+                <td>-46.28</td>
+                <td>169.85</td>
+                <td>60.008</td>
+                <td>2.99758</td>
+              </tr>
+              <tr>
+                <th>285</th>
+                <td>Robertsport</td>
+                <td>LR</td>
+                <td>2020-05-10 03:15:47</td>
+                <td>100</td>
+                <td>85</td>
+                <td>6.75</td>
+                <td>-11.37</td>
+                <td>79.970</td>
+                <td>8.23216</td>
+              </tr>
+              <tr>
+                <th>286</th>
+                <td>Tuatapere</td>
+                <td>NZ</td>
+                <td>2020-05-10 03:15:48</td>
+                <td>98</td>
+                <td>64</td>
+                <td>-46.13</td>
+                <td>167.68</td>
+                <td>62.654</td>
+                <td>6.91233</td>
+              </tr>
+              <tr>
+                <th>287</th>
+                <td>Tuim</td>
+                <td>RU</td>
+                <td>2020-05-10 03:15:48</td>
+                <td>0</td>
+                <td>33</td>
+                <td>54.34</td>
+                <td>89.93</td>
+                <td>63.392</td>
+                <td>3.46735</td>
+              </tr>
+              <tr>
+                <th>288</th>
+                <td>Uppsala</td>
+                <td>SE</td>
+                <td>2020-05-10 03:15:49</td>
+                <td>98</td>
+                <td>86</td>
+                <td>60.00</td>
+                <td>17.75</td>
+                <td>39.992</td>
+                <td>8.05320</td>
+              </tr>
+              <tr>
+                <th>289</th>
+                <td>Santa rosa</td>
+                <td>PH</td>
+                <td>2020-05-10 03:15:49</td>
+                <td>20</td>
+                <td>52</td>
+                <td>14.31</td>
+                <td>121.11</td>
+                <td>93.200</td>
+                <td>3.35550</td>
+              </tr>
+              <tr>
+                <th>290</th>
+                <td>Tabora</td>
+                <td>TZ</td>
+                <td>2020-05-10 03:15:50</td>
+                <td>75</td>
+                <td>88</td>
+                <td>-5.02</td>
+                <td>32.80</td>
+                <td>68.000</td>
+                <td>11.40870</td>
+              </tr>
+              <tr>
+                <th>291</th>
+                <td>Tafresh</td>
+                <td>IR</td>
+                <td>2020-05-10 03:15:50</td>
+                <td>8</td>
+                <td>55</td>
+                <td>34.69</td>
+                <td>50.01</td>
+                <td>59.792</td>
+                <td>12.99697</td>
+              </tr>
+              <tr>
+                <th>292</th>
+                <td>Oliveira dos brejinhos</td>
+                <td>BR</td>
+                <td>2020-05-10 03:15:51</td>
+                <td>77</td>
+                <td>84</td>
+                <td>-12.32</td>
+                <td>-42.90</td>
+                <td>66.632</td>
+                <td>3.53446</td>
+              </tr>
+              <tr>
+                <th>293</th>
+                <td>Dicabisagan</td>
+                <td>PH</td>
+                <td>2020-05-10 03:15:51</td>
+                <td>94</td>
+                <td>59</td>
+                <td>17.08</td>
+                <td>122.42</td>
+                <td>88.844</td>
+                <td>6.08464</td>
+              </tr>
+              <tr>
+                <th>294</th>
+                <td>Byron bay</td>
+                <td>AU</td>
+                <td>2020-05-10 03:11:58</td>
+                <td>14</td>
+                <td>60</td>
+                <td>-28.65</td>
+                <td>153.62</td>
+                <td>77.000</td>
+                <td>6.93470</td>
+              </tr>
+              <tr>
+                <th>295</th>
+                <td>Aguimes</td>
+                <td>ES</td>
+                <td>2020-05-10 03:15:52</td>
+                <td>40</td>
+                <td>64</td>
+                <td>27.91</td>
+                <td>-15.45</td>
+                <td>68.000</td>
+                <td>13.86940</td>
+              </tr>
+              <tr>
+                <th>296</th>
+                <td>Rosarito</td>
+                <td>MX</td>
+                <td>2020-05-10 03:13:05</td>
+                <td>1</td>
+                <td>77</td>
+                <td>32.33</td>
+                <td>-117.03</td>
+                <td>69.800</td>
+                <td>5.81620</td>
+              </tr>
+              <tr>
+                <th>297</th>
+                <td>Itaporanga</td>
+                <td>BR</td>
+                <td>2020-05-10 03:15:53</td>
+                <td>53</td>
+                <td>77</td>
+                <td>-7.30</td>
+                <td>-38.15</td>
+                <td>68.900</td>
+                <td>3.69105</td>
+              </tr>
+              <tr>
+                <th>298</th>
+                <td>Iqaluit</td>
+                <td>CA</td>
+                <td>2020-05-10 03:15:54</td>
+                <td>90</td>
+                <td>93</td>
+                <td>63.75</td>
+                <td>-68.51</td>
+                <td>32.000</td>
+                <td>17.22490</td>
+              </tr>
+              <tr>
+                <th>299</th>
+                <td>Barrow</td>
+                <td>US</td>
+                <td>2020-05-10 03:11:01</td>
+                <td>1</td>
+                <td>92</td>
+                <td>71.29</td>
+                <td>-156.79</td>
+                <td>30.200</td>
+                <td>5.81620</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 ">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+              <li class="page-item "><a class="page-link" href="data.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="data2.html">2</a></li>
+              <li class="page-item disabled"><a class="page-link" href="data3.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="data4.html">4</a></li>
+              <li class="page-item"><a class="page-link" href="data5.html">5</a></li>
+              <li class="page-item"><a class="page-link" href="data6.html">6</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+<!-- footer -->
+    <footer>
+      <div class="container-fluid bg-dark">
+      <div class="row text-center justify-content-around padding">
+        <div class="col-xs-12 col-lg-2">
+          <h5>About</h5>
+          <hr>
+          <p>This is an example of the work for the Bootcamp</p>
+          <ul class="navbar-nav ml-auto" >
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Home</a>
+              <a class="nav-link" href="temperature.html">Max Temperature</a>
+              <a class="nav-link" href="humidity.html">Humidity</a>
+              <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+              <a class="nav-link" href="wind_speed.html">Wind Speed</a>
+              <a class="nav-link" href="comparison.html">Comparison</a>
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>   
+        </div>
+        <div class="col-xs-12 col-lg-2 social">
+          <h5>Other projects</h5>
+          <hr>
+          <a href="https://github.com/Jose2512" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="col-xs-12 col-lg-2 ">
+          <h5>Resources</h5>
+          <hr>
+          <ul class="navbar-nav ml-auto" >
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.python.org/3/" target="_blank">Python</a>
+              <a class="nav-link" href="https://matplotlib.org/3.2.1/contents.html" target="_blank">Matplotlib</a>
+              <a class="nav-link" href="https://pandas.pydata.org/docs/" target="_blank">Pandas</a>
+              <a class="nav-link" href="https://numpy.org/doc/" target="_blank">Numpy</a>
+              <a class="nav-link" href="https://pypi.org/project/citipy/" target="_blank">Citypy</a>
+              <a class="nav-link" href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a>
+              <a class="nav-link" href="https://jupyter-gmaps.readthedocs.io/en/latest/" target="_blank">Gmaps</a>
+            </li>
+          </ul>  
+        </div>            
+      </div>
+    </div>
+    </footer>
+
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

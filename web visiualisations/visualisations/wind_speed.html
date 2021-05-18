@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <link rel="stylesheet" href="../assets/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>Temperature VS Wind Speed</title>
+  </head>
+
+  <body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a href="../../index.html" class="navbar-brand ml-3" id="logo_letters"><img src="../Resources/images/logo.png" alt="" class="logo"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar_menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>   
+      </div>
+    </nav>
+
+    <!-- content -->
+
+    <div class="container-fluid ">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Latitude VS Wind Speed</h1>
+        </div>
+      </div>
+    </div>  
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <img src="../Resources/plots/Figure4.png" class="img-fluid float-left">
+          
+          <h3>Brief Analysis</h3>
+          <br>
+          <p>There is a tendecy if increased wind speeds toward higher latitudes but it is not that representative so to say there is a correlation.</p>
+          <p>There is a subtle correlation between the latitude and the wind speeds of the locations. This may be caused due to rotational speed of the earth and temperature differences.</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+        <img src="../Resources/plots/Figure11.png" class="img-fluid">
+        <img src="../Resources/plots/Figure12.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <!-- Visualizations -->
+    <div class="container padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <hr>
+          <h1 class="display-4 other_visualitations">Other visualizations</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-between padding">
+        <div class="col-lg-3 padding">
+          <div class="card">
+            <img class="card-img-top" src="../Resources/plots/Figure1.png" class="img-fluid">
+            <div class="card-body">
+              <h4 class="card-title">Latitude vs Temperature</h4>
+              <p class="card-text">This plot will show us the relationship of the temperature and the latitude of a certain place</p>
+              <a href="temperature.html" class="btn btn-outline-secondary">See visualization</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 padding">
+          <div class="card">
+            <img class="card-img-top" src="../Resources/plots/Figure2.png" class="img-fluid">
+            <div class="card-body">
+              <h4 class="card-title">Latitude vs Humidity</h4>
+              <p class="card-text">This plot will show us the relationship of the humidity and the latitude of a certain place</p>
+              <a href="humidity.html" class="btn btn-outline-secondary">See visualization</a>
+            </div>
+          </div>
+        </div>  
+        <div class="col-lg-3  padding">
+          <div class="card">
+            <img class="card-img-top" src="../Resources/plots/Figure3.png" class="img-fluid">
+            <div class="card-body">
+              <h4 class="card-title">Latitude vs Cloudiuness</h4>
+              <p class="card-text">This plot will show us the relationship of the cloudiness and the latitude of a certain place</p>
+              <a href="cloudiness.html" class="btn btn-outline-secondary">See visualization</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- footer -->
+    <footer>
+      <div class="container-fluid bg-dark">
+      <div class="row text-center justify-content-around padding">
+        <div class="col-xs-12 col-lg-2">
+          <h5>About</h5>
+          <hr>
+          <p>This is an example of the work for the Bootcamp</p>
+          <ul class="navbar-nav ml-auto" >
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Home</a>
+              <a class="nav-link" href="temperature.html">Max Temperature</a>
+              <a class="nav-link" href="humidity.html">Humidity</a>
+              <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+              <a class="nav-link" href="wind_speed.html">Wind Speed</a>
+              <a class="nav-link" href="comparison.html">Comparison</a>
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>   
+        </div>
+        <div class="col-xs-12 col-lg-2 social">
+          <h5>Other projects</h5>
+          <hr>
+          <a href="https://github.com/Jose2512" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="col-xs-12 col-lg-2 ">
+          <h5>Resources</h5>
+          <hr>
+          <ul class="navbar-nav ml-auto" >
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.python.org/3/" target="_blank">Python</a>
+              <a class="nav-link" href="https://matplotlib.org/3.2.1/contents.html" target="_blank">Matplotlib</a>
+              <a class="nav-link" href="https://pandas.pydata.org/docs/" target="_blank">Pandas</a>
+              <a class="nav-link" href="https://numpy.org/doc/" target="_blank">Numpy</a>
+              <a class="nav-link" href="https://pypi.org/project/citipy/" target="_blank">Citypy</a>
+              <a class="nav-link" href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a>
+              <a class="nav-link" href="https://jupyter-gmaps.readthedocs.io/en/latest/" target="_blank">Gmaps</a>
+            </li>
+          </ul>  
+        </div>            
+      </div>
+    </div>
+    </footer>
+
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
