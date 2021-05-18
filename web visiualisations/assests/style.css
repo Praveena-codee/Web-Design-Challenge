@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html,body {
+    font-family: 'Poppins', sans-serif;
+    color: #222222
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link{
+    font-size: 1em;
+    padding: 0px;
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+
+.social a{
+    font-size: 3.5em;
+    color: #fff 
+}
+
+p{
+    text-align: justify;
+}
+
+#logo_letters{
+    font-size: 42px;
+    font-weight: 400;
+    color: #9fa3a5;
+}
+
+#project_description{
+    margin-top: 40px;
+}
+
+.welcome{
+    padding: 2rem;
+}
+
+footer{
+    color: #9fa3a5;
+    font-family: 'Poppins';
+}
+
+footer p{
+    text-align: center;
+}
+footer a{
+    color: #9fa3a5;
+}
+footer a:hover{
+    color: #bcc0c2;
+    font-weight: 500;
+}
+h5{
+    font-size: 32px;
+    padding-top: 2rem;
+}
+
+hr{
+    border: #bcc0c2 solid 1px;
+}
+.description{
+    height: 50px;
+}
+.other_visualitations{
+    font-size: 32px;
+}
+h3{
+    text-align: left;
+    margin-top: 3.5rem;
+}
+td{
+    width: 60pt;
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+.index_col{
+    width: 10pt;
+}
+.cover_img{
+    width: 500px;
+    margin: 0px 35px 0px 35px;
+}
+#small_center_title{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.hr-content{
+    border: black;
+}
+.logo{
+    height: 50px;
+}
